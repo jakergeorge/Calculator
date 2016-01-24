@@ -1,0 +1,1 @@
+import java.awt.*;import javax.swing.*;/** * Class to run calculator  * @author Jacob George * @version 0.2 *  */class Driver{		public static void main(String[] args){		try{			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());		}		catch(Exception e){		}		Calculator c=new Calculator();		c.setVisible(true);	}} 
